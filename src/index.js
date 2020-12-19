@@ -1,16 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Card from './Card';
+import CarsList from './CarsList'
 import 'tachyons'
 import { cars } from './Cars'
 
 ReactDOM.render(
   <React.StrictMode>
     <div id="main">
-    <Card name={cars[0].name} description={cars[0].description} file={cars[0].file}/> 
-    <Card name={cars[1].name} description={cars[1].description} file={cars[1].file}/> 
-    <Card name={cars[2].name} description={cars[2].description} file={cars[2].file}/> 
+      <CarsList cars={cars}/>
     </div>
   </React.StrictMode>,
   document.getElementById('root')
