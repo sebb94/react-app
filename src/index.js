@@ -8,7 +8,7 @@ ReactDOM.render(
   <React.StrictMode>
     <div id="main">
       <App />
-    </div>
+    </div> 
   </React.StrictMode>,
   document.getElementById('root')
 );

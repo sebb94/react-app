@@ -18,10 +18,14 @@ h1{
   color: #fff;
 }
 
+h2{
+  color: #fff
+}
+
 .image-main{
   width: 30%;
   min-width: 340px;
-  background-color: #41a9a9;
+  background: linear-gradient(to left, rgb(255 8 8) 0%, rgb(220 185 58 / 85%) 100%);
 }
 
 .image-container{
@@ -40,4 +44,10 @@ h1{
   display: flex;
   justify-content: space-around;
   margin-top: 25px;
+}
+
+input[type="search"]{
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #3210ea;
 }

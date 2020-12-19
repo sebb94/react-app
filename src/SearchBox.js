@@ -8,7 +8,6 @@ const SearchBox = ( {searchField, searchChange}) => {
             placeholder="search cars..."
             onChange = {searchChange}
             />
-
         </div>
     );
 }
